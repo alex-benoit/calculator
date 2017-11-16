@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-md-offset-1">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h1>Calculator</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-10">
+          <form action="/result" method="post" data-remote="true">
+            <input type="text" name="operation" class="form-control" id="operation" readonly></input>
+            <input type="submit" id="submit" style="display: none">
+          </form>
+        </div>
+        <div class="col-xs-2">
+          <button id="reset" class="reset">Reset</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="number">7</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">8</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">9</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="operator">/</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="number">4</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">5</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">6</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="operator">x</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="number">1</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">2</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="number">3</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="operator">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <button class="number">0</button>
+        </div>
+        <div class="col-xs-6">
+          <button class="equals">=</button>
+        </div>
+        <div class="col-xs-3">
+          <button class="operator">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4 col-md-offset-1">
+      <h3>Previous Operations</h3>
+
+    </div>
+  </div>
+</div>

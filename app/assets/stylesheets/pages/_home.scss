@@ -1,1 +1,31 @@
-// Specific CSS for your home-page
+button {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.number {
+  background-color: #F2F2F2;
+}
+
+.operator {
+  background-color: #D5D5D5;
+}
+
+.equals {
+  background-color: #4C8BEF;
+}
+
+#operation {
+  margin-bottom: 20px;
+  font-size: 28px;
+  background-color: #F2F2F2;
+  letter-spacing: 3px;
+}
+
+#reset {
+  height: 39px;
+}
